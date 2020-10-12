@@ -1,0 +1,555 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    box-sizing: border-box;
+}
+html {
+    --max-width: 865px;
+}
+body {
+    margin: 0;
+
+    /* width: 1919px; */
+}
+img.bars {
+    height: 100%;
+}
+
+/********** HEADER **********/
+/***************************/
+header {
+    width: 100%;
+    height: auto;
+}
+header > div:first-of-type {
+    background-color: #3A3A3A;
+}
+header > div:first-of-type > div:first-of-type {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    width: 100%;    
+
+    height: 67px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/***** ICONO INICIAL *****/
+div.icon {
+    width: 58px;
+    height: 58px;
+    background-color: #ffffff;
+    border-radius: 29px;
+}
+div.icon p {
+    width: 58px;
+    height: 58px;
+
+    margin: 0%;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: goldenrod;
+}
+
+/***** BARRA NAV *****/
+ nav ul {
+    list-style: none;
+    /* padding-left: 294px; */
+    margin: 0%;
+
+    display: flex;
+}
+ul li a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+
+    padding: 0px 10.5px;
+}
+ul li a:hover {
+    color: goldenrod;
+}
+
+/***** IMG GIGANTE *****/
+header > img:first-of-type {
+    width: 100%;
+    height: 477px;
+
+    object-fit: cover;  /* cover ou contain */
+    object-position: 75% 75%;
+}
+
+/********** MAIN **********/
+/***** FOTO PERFIL *****/
+main > section:first-of-type {
+    display: flex;
+
+    width: 100%;
+    max-width: var(--max-width);
+
+    margin: auto;
+    padding-bottom: 34px;
+}
+main > section:first-of-type > div:nth-of-type(1) {
+    margin-right: 34px;
+
+    
+}
+main > section:first-of-type > div:nth-of-type(1) > img {
+    width: 260px;
+    height: 260px;
+
+    margin-top: -130px;
+
+    border-radius: 50%;
+    border: 6px solid goldenrod;
+}
+/***** BARRA DE ICONES *****/
+main > section:first-of-type > div:nth-of-type(1) > nav {
+    display: flex;
+    justify-content: space-between;
+}
+main > section:first-of-type > div:nth-of-type(1) > nav img {
+    transform: translateY(-50%);
+    
+    width: 58px;
+    height: 58px;
+
+    background-color: black;
+
+    border-radius: 30px;
+    border: 1px solid goldenrod;
+}
+/***** INFO PERFIL *****/
+main > section:first-of-type div h1 {
+    margin: 0;
+
+    color: goldenrod;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 73px;
+    opacity: 100%;
+}
+main > section:first-of-type div h2:first-of-type {
+    margin: 0;
+
+    color: goldenrod;
+    font-size: 34px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 46px;
+
+    opacity: 100%;
+}
+main > section:first-of-type div h2:last-of-type {
+    margin: 0;
+    margin-top: 34px;
+    margin-bottom: 21px;
+
+    color: #707070;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 46px;
+}
+main > section:first-of-type div p {
+    margin: 0;
+
+    color: #707070;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 33.81px;
+    text-align: left;
+}
+
+/***** FORMAÇÃO *****/
+main > section:nth-of-type(2) {
+    background-color: #DEDEDE;
+}
+main > section:nth-of-type(2) > div {
+    max-width: var(--max-width);
+    width: 100%;
+
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+main > section:nth-of-type(2) > div > h2 {
+    font-size: 55px;
+    font-weight: lighter;
+
+    margin: 0%;
+    padding-top: 34px;
+    padding-bottom: 33px;
+
+    color: goldenrod;
+}
+main > section:nth-of-type(2) > div > article {
+    display: flex;
+    flex-direction: row;
+}
+main > section:nth-of-type(2) > div > article > div:first-of-type {
+    background-color: #000000;
+    width: 8px;
+    height: 66px;
+
+    border-radius: 5px;
+}
+main > section:nth-of-type(2) > div > article > div:last-of-type {
+    padding-left: 13px;
+    padding-bottom: 21px;
+}
+main > section:nth-of-type(2) > div > article > div:last-of-type p {
+    color: #707070;
+
+    font-size: 13px;
+    line-height: 33.81px;
+    font-weight: 600;
+
+    margin: 0%;
+
+    height: 20px;
+
+    text-align: flex-start;
+}
+main > section:nth-of-type(2) > div > article > div:last-of-type h3 {
+    color: #707070;
+    
+    font-size: 21px;
+    line-height: 33.81px;
+    font-weight: bold;
+
+    margin: 0%;
+
+    height: 25px;
+}
+main > section:nth-of-type(2) > div > article > div:last-of-type h4 {
+    color: #707070;
+    
+    font-size: 13px;
+    line-height: 33.81px;
+    font-weight: 600;
+
+    margin: 0%;
+
+    height: 13px;
+}
+
+/***** EXPERIÊNCIA *****/
+main > section:nth-of-type(3) {
+    background-color: #434343;
+}
+main > section:nth-of-type(3) > div {
+    max-width: var(--max-width);
+    width: 100%;
+
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+main > section:nth-of-type(3) > div > h2 {
+    font-size: 55px;
+    font-weight: lighter;
+
+    margin: 0;
+    padding-top: 34px;
+    padding-bottom: 33px;
+
+    color: goldenrod;
+}
+main > section:nth-of-type(3) > div > article {
+    display: flex;
+    flex-direction: row;
+}
+main > section:nth-of-type(3) > div > article > div:first-of-type {
+    background-color: #FFFFFF;
+    width: 8px;
+    height: 66px;
+
+    border-radius: 5px;
+}
+main > section:nth-of-type(3) > div > article > div:last-of-type {
+    padding-left: 13px;
+    padding-bottom: 21px;
+}
+main > section:nth-of-type(3) > div > article > div:last-of-type p {
+    color: #999999;
+
+    font-size: 13px;
+    line-height: 33.81px;
+    font-weight: 600;
+
+    margin: 0%;
+
+    height: 20px;
+
+    text-align: flex-start;
+}
+main > section:nth-of-type(3) > div > article > div:last-of-type h3 {
+    color: #999999;
+    
+    font-size: 21px;
+    line-height: 33.81px;
+    font-weight: bold;
+
+    margin: 0%;
+
+    height: 25px;
+}
+main > section:nth-of-type(3) > div > article > div:last-of-type h4 {
+    color: #999999;
+    
+    font-size: 13px;
+    line-height: 33.81px;
+    font-weight: 600;
+
+    margin: 0%;
+
+    height: 13px;
+}
+
+/***** PROJETOS *****/
+main > section:nth-of-type(4) {
+    background-color: #F2F2F2;
+}
+main > section:nth-of-type(4) > div {
+    max-width: var(--max-width);
+    width: 100%;
+
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+main > section:nth-of-type(4) > div > h2 {
+    font-size: 55px;
+    font-weight: lighter;
+
+    margin: 0%;
+    padding-top: 21px;
+    padding-bottom: 28px;
+
+    color: goldenrod;
+}
+main > section:nth-of-type(4) > div > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    /* height: 353px; */
+
+    box-sizing: border-box;
+    padding: 6px 0px 12px 9px;
+}
+main > section:nth-of-type(4) > div > div > article {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+
+    width: 260px;
+    
+    box-sizing: border-box;
+    padding: 12px;
+}
+main > section:nth-of-type(4) > div > div > article > div:first-of-type > img {
+    width: 231.86px;
+    height: 129.1px;
+}
+main > section:nth-of-type(4) > div > div > article > div:first-of-type > h3 {
+    font-size: 21px;
+    line-height: 28px;
+
+    color: #707070;
+
+    margin: 8px 0px;
+}
+main > section:nth-of-type(4) > div > div > article > div:first-of-type > p {
+    font-size: 13px;
+    line-height: 17px;
+
+    color: #707070;
+
+    margin: 0%;
+
+    height: 96px;
+}
+main > section:nth-of-type(4) > div > div > article > div:last-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-top: 16px;
+    padding-bottom: 19px;
+}
+main > section:nth-of-type(4) > div > div > article > div:last-of-type > span {
+    width: 110px;
+    height: 34px;
+
+    background-color: #585858;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > section:nth-of-type(4) > div > div > article > div:last-of-type > span > a {
+    color: #FFFFFF;
+    font-size: 12px;
+
+    text-decoration: none;
+}
+main > section:nth-of-type(4) > div > div > article > div:last-of-type > span > a:hover {
+    color: goldenrod;
+}
+
+/***** FOOTER: CONTATO *****/
+footer {
+    background-color: #000000;
+}
+footer > div {
+    max-width: var(--max-width);
+    width: 100%;
+
+    margin: 0 auto;
+    padding-bottom: 45px;
+    padding-top: 34px;
+
+    display: flex;
+}
+footer > div > div {
+    flex-basis: 50%;
+}
+footer > div > div > h2 {
+    color: #FFFFFF;
+    font-size: 55px;
+    font-weight: lighter;
+
+    margin: 0%;
+}
+footer > div > div > div:first-of-type > p {
+    color: #707070;
+
+    font-size: 21px;
+    line-height: 28px;
+
+    margin: 0%;
+
+    padding-top: 43px;
+    padding-bottom: 55px;
+}
+footer > div > div > div:last-of-type > nav {
+    width: 216px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer > div > div > div:last-of-type > nav > a {
+    text-decoration: none;
+
+    color: #707070;
+    font-size: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+footer > div > div > div:last-of-type > nav > a > img {
+    width: 58px;
+    height: 58px;
+
+    background-attachment: white;
+
+    padding-bottom: 10px;
+}
+
+/* FORMULÁRIO */
+form {
+    width: 100%;
+    display: block;
+
+    padding-top: 73px;
+}
+form label {
+    width: 100%;
+    display: block;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 13px;
+
+    padding-bottom: 17px;
+}
+form label input {
+    display: block;
+    width: 100%;
+    height: 34px;
+}
+form label textarea {
+    display: block;
+
+    width: 100%;
+    height: 133px;
+
+    resize: none;
+}
+form label:last-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-bottom: 99px;
+}
+form label:last-of-type button {
+    width: 122px;
+    height: 34px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    background-color: #585858;
+
+    color: #FFFFFF;
+
+    border-radius: 5px;
+}
+
+/***** RESPONSIVIDADE *****/
+@media (max-width: 865px) {
+    main > section:nth-of-type(4) > div > div {
+
+        justify-content: flex-start;
+    }
+    main > section:nth-of-type(4) > div > div > article {
+        margin: 15px;
+    }
+    section, footer, header > div:first-of-type {
+        padding-left: 13px;
+        padding-right: 13px; 
+    }
+    main > section:first-of-type {
+        flex-wrap: wrap;
+    }
+    footer > div {
+        flex-wrap: wrap;
+    }
+    footer > div > div {
+        flex-basis: 100%;
+    }
+}
+@media (min-width: 1023px) {
+    img.bars {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    nav {
+        display: none;
+    }
+}
