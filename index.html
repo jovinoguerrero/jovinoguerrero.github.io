@@ -14,25 +14,23 @@
                 <img class="bars" src="icon/bars-solid.svg" alt="">
                 <nav>
                     <ul>
-                        <li><a href="">APRESENTAÇÃO</a></li>
-                        <li><a href="">FORMAÇÃO</a></li>
-                        <li><a href="">EXPERIÊNCIA</a></li>
-                        <li><a href="">PROJETOS</a></li>
-                        <li><a href="">FALE COMIGO!</a></li>
+                        <li><a href="#areaApresentação">APRESENTAÇÃO</a></li>
+                        <li><a href="#areaFormação">FORMAÇÃO</a></li>
+                        <li><a href="#areaExperiência">EXPERIÊNCIA</a></li>
+                        <li><a href="#areaProjetos">PROJETOS</a></li>
+                        <li><a href="#areaContato">FALE COMIGO!</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
 
         <img src="img/fotoFondo.jpg" alt="">
-
-        
     </header>
 
     <main>
         <section>
             <div>
-                <img src="img/fotoPerfil.jpg" alt="">
+                <img id="areaApresentação" src="img/fotoPerfil.jpg" alt="">
                 <nav>
                     <a href="https://github.com/jovinoguerrero" target="_blank"><img src="icon/github-icon.jpg" alt=""></a>
                     <a href="https://www.linkedin.com/in/jovinoguerrero/" target="_blank"><img src="icon/linkedin-icon.png" alt=""></a>
@@ -44,17 +42,17 @@
                 <h1>Jovino G Toledo</h1>
                 <h2>Full Stack Developer</h2>
                 <h2>Olá!</h2>
-                <p>Aqui irá entrar um breve texto de apresentação. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.</p>
+                <p>Meus primeiros passos como desenvoldedor começaram na universidad quando percebi minha paixão pelas tecnologias, seguido de uma grande curiosidade pela programação e tudas as suas posibilidades. Atualmente moro em Rio de Janeiro e estou estudando para me tornar um desenvolvedor full stack.</p>
             </div>
         </section>
 
-        <section>
+        <section id="areaFormação">
             <div>
                 <h2>Formação</h2>
                 <article>
                     <div></div>
                     <div>
-                        <p>2020-Atual</p>
+                        <p>Setembro.2020-Dezembro.2020</p>
                         <h3>Full Stack Development</h3>
                         <h4>TOTI DIVERSIDADE - RJ, BRASIL</h4>
                     </div>
@@ -70,13 +68,13 @@
             </div>
         </section>
 
-        <section>
+        <section id="areaExperiência">
             <div>
                 <h2>Experiência</h2>
                 <article>
                     <div></div>
                     <div>
-                        <p>2020-ATUAL</p>
+                        <p>Julho.2020-Setembro.2020</p>
                         <h3>Especialista & Desenvolvedor de Robótica Educacional</h3>
                         <h4>OSIRION MECHATRONICS SPA</h4>
                     </div>
@@ -84,7 +82,7 @@
                 <article>
                     <div></div>
                     <div>
-                        <p>2017-2019</p>
+                        <p>Outubro.2017-Setembro.2019</p>
                         <h3>Desenhador de Projetos de Engenharia</h3>
                         <h4>MUNDO PACIFICO</h4>
                     </div>
@@ -92,7 +90,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="areaProjetos">
             <div>
                 <h2>Projetos</h2>
                 <div>
@@ -138,43 +136,48 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="areaContato">
         <div>
             <div>
                 <h2>Contato</h2>
                 <div>
                     <p> Quer entrar em contato comigo?
                         <br><br>
-                        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+                        Preencha o formulário ao lado para nos conectar rápidamente.
                         <br><br>
                         Você também pode me encontrar nas seguintes redes sociais:</p>
                 </div>
 
                 <div>
                     <nav>
-                        <a href="https://www.facebook.com/profile.php?id=100005742496967" target="_blanc"><img src="icon/fb-icon.png" alt="">FACEBOOK</a>
-                        <a href="https://www.instagram.com/dingodoar/" target="_blanc"><img src="icon/ig-icon.png" alt="">INSTAGRAM</a>
-                        <a href="https://twitter.com/JovinoToledo" target="_blanc"><img src="icon/twitter-icon.png" alt="">TWITTER</a>
+                        <a href="https://www.facebook.com/profile.php?id=100005742496967" target="_blanc"><img src="icon/fb-icon.png" alt=""></a>
+                        <a href="https://www.instagram.com/dingodoar/" target="_blanc"><img src="icon/ig-icon.png" alt=""></a>
+                        <a href="https://twitter.com/JovinoToledo" target="_blanc"><img src="icon/twitter-icon.png" alt=""></a>
                     </nav>
                 </div>
             </div>
 
 
             <div>
-                <form action="" method="POST">
-                    <label>NOME<input type="text" name="nome" placeholder="Fulano De Tal">
-                    </label>
-                    <label>E-MAIL
-                        <input required type="text" name="email" placeholder="fulano@detal.com">
-                    </label>
-                    <label>ASSUNTO
-                        <input type="text" name="assunto" placeholder="Oportunidade de Trabalho">
-                    </label>
-                    <label>MENSAGEM
-                        <textarea name="description" placeholder="Escreve algo..."></textarea>
+                <form id="form" method="POST">
+                    <label>
+                        NOME
+                        <input id="inputNome" type="text" name="nome" placeholder="Fulano De Tal">
                     </label>
                     <label>
-                        <button type="submit">ENVIAR</button>
+                        E-MAIL
+                        <input id="inputEmail" type="text" name="email" placeholder="fulano@detal.com" required>
+                    </label>
+                    <label>
+                        ASSUNTO
+                        <input id="inputSubject" type="text" name="assunto" placeholder="Oportunidade de Trabalho">
+                    </label>
+                    <label>
+                        MENSAGEM
+                        <textarea id="inputMessage" name="description" placeholder="Escreve algo..."></textarea>
+                    </label>
+                    <label>
+                        <button id="inputButton" type="submit">ENVIAR</button>
                     </label>
                 </form>
             </div>
