@@ -112,7 +112,6 @@ main > section:first-of-type > div:nth-of-type(1) > img {
     margin-top: -130px;
 
     border-radius: 50%;
-    border: 6px solid #EDD59E;
 }
 /***** BARRA DE ICONES *****/
 main > section:first-of-type > div:nth-of-type(1) > nav {
@@ -128,7 +127,6 @@ main > section:first-of-type > div:nth-of-type(1) > nav img {
     background-color: black;
 
     border-radius: 30px;
-    border: 1px solid #EDD59E;
 }
 /***** INFO PERFIL *****/
 main > section:first-of-type div h1 {
