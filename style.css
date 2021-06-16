@@ -315,6 +315,10 @@ main > section:nth-of-type(3) > div > article > div:last-of-type h4 {
     height: 13px;
 }
 
+#currentJob {
+    color: #FFFFFF;
+}
+
 /***** PROJETOS *****/
 main > section:nth-of-type(4) {
     background-color: #F2F2F2;

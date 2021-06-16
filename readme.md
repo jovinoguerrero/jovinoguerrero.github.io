@@ -2,15 +2,7 @@
 
 ###### Trabalho que começa no projeto final do Módulo CSS do curso _Programação Full Stack_ da [Toti Diversidade](https://totidiversidade.com.br/) e segue no projeto final do Módulo JavaScript.
 
-### Modificações
-
-- readme.md: Foi todo modificado.
-- index.html: Principalmente preenchimento e modificações de texto.
-- style.css: Estilização principalmente modificada nas cores do desenho. 
-- script.js: Adicionamento de script para o projeto, onde se trabalha o seguinte:
-  - preencher
-  - preencher
-  - preencher
+#### RESULTANDO NO MEU ATUAL REPOSITÓRIO [2021]
 
 #### Cores adicionadas
 
